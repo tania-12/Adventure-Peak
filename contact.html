@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Adventure Peek</title>
+        <link href="contact.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+            <h3>Thank you for reaching out to us. We will do our best to get back to you as soon as possible.</h3>
+        </header>
+        <hr class="solid">
+        <br>
+        <div class = "contactForm">
+            <form>
+                <p>
+                    <input class = "topBox1" type = "text" id = "firstName" placeholder = "First Name">
+                    <input class = "topBox2" type = "text" id = "LastName" placeholder = "Last Name">
+                </p>
+                <p>
+                    <input class = "email" type = "text" id = "email" placeholder = "Email">
+                </p>
+                <div class = "radioForm">
+                    <div class = "title">
+                        <h4>Choose One: </h4>
+                   </div>
+                   <div class = "radioButtons">
+                        <div class = "buttons">
+                           <input type="radio" name="radioOption" value="work with us" id = "Work">
+                           <label class = "option" for="Work">Work with Us</label> <br>
+                        </div>
+                        <div class = "buttons">
+                           <input type="radio" name="radioOption" value="Join the Camp" id = "join">
+                           <label class = "option" for="join">Join the Camp</label> <br>
+                        </div>
+                        <div class = "buttons">  
+                           <input type="radio" name="radioOption" value="questions" id = "questions">
+                           <label class = "option" for="questions">Question</label> <br>
+                        </div>   
+                    </div>
+                </div>
+                <p>
+                    <textarea name="questionsComments" rows="6" cols="50" placeholder="Write your question or comment here..."></textarea>
+                </p>
+                <div class = "submitButton">
+                    <button>Submit</button>
+                </div>    
+            </form>
+        </div>  
+    </body>
+</html>
