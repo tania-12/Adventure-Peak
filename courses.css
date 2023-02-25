@@ -1,86 +1,181 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
 @font-face{
-  font-family: Komiko;
-  src: url(Komiko-vY74.ttf);
+  font-family: Whitney;
+  src: url(whitney-book.otf);
+}
+@font-face{
+  font-family: WhitneyBold;
+  src: url(whitney-semibold.otf);
+}
+@font-face{
+  font-family: WhitneyTitle;
+  src: url(whitney-boldsc.otf);
+}
+#logo {
+  padding: 20px;
+}
+body{
+  margin: 0px;
+  overflow-x: hidden;
+}
+header{
+  margin-top: 50px;
+  padding-top: 80px;
+}
+.nav {
+  font-family: 'Shantell Sans';
+  font-size: 20px;
+  position: fixed;
+  z-index: 1;
+  background-color: #85bee9;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
 }
 
-h1{
-    font-family: Komiko;
-    text-align: center;
-  }
-  .box{
-    transform: translateX(200%);
-    transition: transform 0.4s ease;
-  }
-  .box:nth-of-type(even){
-    transform: translateX(-200%);
-  }
-  .box.show{
-    transform: translateX(0);
-  }
-  .boxContainer1 {
-    display: flex;
-    width: 100%;
+.nav .container {
+  font-family: 'Shantell Sans';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav ul {
+  font-family: 'Shantell Sans';
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav a {
+  font-family: 'Shantell Sans';
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 25px;
+  transition: all 0.3s ease-in-out;
+}
+header > h1{
+  font-family: WhitneyTitle;
+  text-align: center;
+  font-size: 45px;
+}
+.box{
+  transform: translateX(200%);
+  transition: transform 0.4s ease;
+}
+.box:nth-of-type(even){
+  transform: translateX(-200%);
+}
+.box.show{
+  transform: translateX(0);
+}
+.boxContainer1 {
+  display: flex;
+  width: 100%;
+}
+.boxC11{
+  flex-basis: 60%;
+  height: 600px;
+  background-color: #E38F2D;
+  margin: 2px 2px 2px 0;
+}
+img{
+  width: 60%;
+  height: 500px;
+  padding: 50px 80px 50px 120px;
+}
+.boxC12{
+  flex-basis: 40%;
+  height: 600px;
+  margin: 2px 0 2px 2px;
+  background-color: #E38F2D;
+}
+.boxContainer2 {
+  display: flex;
+  width: 100%;
+}
+.boxC22{
+  flex-basis: 60%;
+  height: 600px;
+  background-color: #E38F2D;
+  margin: 2px 0 2px 2px;
+}
+.boxC21{
+  flex-basis: 40%;
+  height: 600px;
+  margin: 2px 2px 2px 0;
+  background-color: #E38F2D;
+}
+.boxC11 > h2{
+  font-family: WhitneyBold;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 30px;
+  color:white;
+}
+.boxC11 > p, ul{
+  font-family: Whitney;
+  margin: 0px 60px 0px 60px;
+  padding-top: 5px;
+  font-size: 20px;
+  color: white;
+}
+.boxC22 > h2{
+  font-family: WhitneyBold;
+  margin-left: 60px;
+  margin-top: 60px;
+  font-size: 30px;
+  color:white;
+}
+.boxC22 > p, ul{
+  font-family: Whitney;
+  padding-top: 5px;
+  margin: 0px 60px 0px 60px;
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 800px){
+  .boxContainer1{
+    flex-wrap: wrap;
   }
   .boxC11{
-    flex-basis: 60%;
-    height: 375px;
-    background-color: #E38F2D;
-    margin: 2px;
-    margin-left: 35px;
-  }
-  img{
-    width: 100%;
-    height: 375px;
-    justify-content: center;
+    flex-basis: 100%;
+    margin: 2px 0 2px 0;
   }
   .boxC12{
-    flex-basis: 40%;
-    height: 375px;
-    margin: 2px;
-    background-color: #E38F2D;
-    margin-right: 35px;
+    flex-basis: 100%;
+    margin: 2px 0 2px 0;
   }
-  .boxContainer2 {
-    display: flex;
-    width: 100%;
-  }
-  .boxC22{
-    flex-basis: 60%;
-    height: 375px;
-    background-color: #E38F2D;
-    margin: 2px;
-    margin-right: 35px;
+  .boxContainer2{
+    flex-wrap: wrap-reverse;
   }
   .boxC21{
-    flex-basis: 40%;
-    height: 375px;
-    margin: 2px;
-    background-color: #E38F2D;
-    margin-left: 35px;
+    flex-basis: 100%;
+    margin: 2px 0 2px 0;
   }
-  .boxC11 > h2{
-    font-family: Komiko;
-    margin-left: 50px;
-    margin-top: 50px;
-    color:white;
+  .boxC22{
+    flex-basis: 100%;
+    margin: 2px 0 2px 0;
   }
-  .boxC11 > p, ul{
-    font-family: Komiko;
-    padding: 10px 0px 0px;
-    margin: 0px 50px 0px 50px;
-    font-size: 18px;
-    color: white;
+  .boxC22 > p{
+    font-size: 24px;
   }
-  .boxC22 > h2{
-    font-family: Komiko;
-    margin-left: 50px;
-    margin-top: 50px;
-    color:white;
+  .boxC11 > p{
+    font-size: 24px;
   }
-  .boxC22 > p, ul{
-    font-family: Komiko;
-    padding: 10px 0px 0px;
-    margin: 0px 50px 0px 50px;
-    font-size: 18px;
-    color: white;
+}
+@media (max-width: 600px){
+  .boxC22 > p{
+    font-size: 20px;
+    padding-top: 20px;
   }
+  .boxC11 > p{
+    font-size: 20px;
+    padding-top: 20px;
+  }
+}
