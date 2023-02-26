@@ -1,133 +1,253 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset = "utf-8">
-        <title>FAQ</title>
-        <link rel = "stylesheet" href = "faq_style.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="faq_style.css" />
+    <title>FAQ</title>
 
-        <!-- Import FontAwesome (for icons) -->
-        <script src="https://kit.fontawesome.com/cbc5c86ad3.js" crossorigin="anonymous">
-        </script>
-    </head>
+    <!-- Import FontAwesome (for icons) -->
+    <script src="https://kit.fontawesome.com/cbc5c86ad3.js" crossorigin="anonymous">
+    </script>
+  </head>
 
-    <body>
-        <nav class = "nav">
-            <div class = "container">
-                <h1><a href = "index.html"><i class = "fas fa-mountain-sun" id = "logo"></i>Adventure Peak</a></h1>
-                <ul>
-                    <li><a href = "index.html" class = "active">Home</a></li>
-                    <li><a href = "programs.html">Programs</a></li>
-                    <li><a href = "courses.html">Courses</a></li>
-                    <li><a href = "faq.html">FAQ</a></li>
-                    <li><a href = "contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
-    
-    <div class = "wrapper">
-        <header>
-            <h1>Frequently Asked Questions</h1>
-        </header>
-        
-        <div class="faq-container">
-            <div class="faq active">
-                <div class="faq-item">
-                    <h3 class="faq-title">
-                        Where is Adventure Peak located?
-                    </h3>
-                    <p class="faq-text">
-                        Our facility is located in the Adirondack Mountains.
-                    </p>
-                    <button>
-                        <i class="fas fa-chevron-down"></i>
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                
-                <div class = "faq-item">
-                    <h3 class="faq-title">
-                        Is Adventure Peak a sleepaway camp?
-                    </h3>
-    
-                    <p class="faq-text">
-                        Yes, Adventure Peak is a sleepaway camp. We ask that you please keep your child
-                        at camp for the entire duration of the program that they were signed up for. 
-                    </p>
-    
-                    <button>
-                        <i class="fas fa-chevron-down"></i>
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                
-                <div class = "faq-item">
-                    <h3 class="faq-title">
-                        What if my child needs to leave camp before the end of program?
-                    </h3>
-    
-                    <p class="faq-text">
-                        Because of our heavy enrollment numbers, we ask that you only submit an enrollment form if you know your child will be
-                        available for the entire program. We generally do not accommodate requests for shorter program durations. In the event 
-                        of an emergency, please contact our office at (xxx)xxx-xxxx.
-                    </p>
-    
-                    <button>
-                        <i class="fas fa-chevron-down"></i>
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                
-                <div class = "faq-item">
-                    <h3 class="faq-title">
-                        What if my child gets homesick?
-                    </h3>
-    
-                    <p class="faq-text">
-                       Surprisingly enough, we've found that children generally do not feel overwhelmingly homesick. While the occasional homesickness
-                       is fairly common, it is a completely normal and natural feeling. Our camp counselors are highly trained in child care and will 
-                       connect with your child to ensure they feel at home. If you're worried about your child and want to stay in touch, we highly 
-                       encourage sending letters to our very special Parent Inbox, located at our facility. We've found that staying in contact with 
-                       your child has boosted morale and makes campers feel more at-ease knowing that their families are thinking about them!
-                    </p>
-    
-                    <button>
-                        <i class="fas fa-chevron-down"></i>
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-                
-                <div class = "faq-item">
-                    <h3 class="faq-title">
-                        What is your policy on technology?
-                    </h3>
-    
-                    <p class="faq-text">
-                        We know that our campers staying in touch with their parents is an important aspect of growing up. 
-                    </p>
-    
-                    <button>
-                        <i class="fas fa-chevron-down"></i>
-                        <i class="fas fa-times"></i>
-                    </button>
-                </div>
-
-
-            </div>
-
-
-
+  <body>
+    <!--- NAVBAR -->
+      <!--- NAVBAR -->
+      <nav class = "nav">
+        <div class = "container">
+            <h1><a href = "index.html"><i class = "fas fa-mountain-sun" id = "logo"></i>Adventure Peak</a></h1>
+            <ul>
+                <li><a href = "index.html" class = "active">Home</a></li>
+                <li><a href = "programs.html">Programs</a></li>
+                <li><a href = "courses.html">Courses</a></li>
+                <li><a href = "faq.html">FAQ</a></li>
+                <li><a href = "contact.html">Contact Us</a></li>
+            </ul>
         </div>
+    </nav>
+    
+    <!--- FAQ SECTION-->
+    <header>
+      <h1 style = "text-align: center; size: 20px;">Frequently Asked Questions</h1>
+    </header>
+    <div class="faq-container">
+      <!--- What is Adventure Peak? -->
+      <div class="faq">
+        <h3 class="faq-title">
+            What is Adventure Peak?
+        </h3>
 
+        <p class="faq-text">
+            Adventure Peak is a fun, moderately competitive summer camp located in the Adirondack Mountains. We aim to provide 8-17 year olds with
+            fun and engaging activities, while also providing leadership opportunities, social and emotional learning, survival skills, and most importantly,
+            lifelong memories!
+        </p>
 
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
 
+      <!--- Sleepaway Camp -->
+      <div class="faq">
+        <h3 class="faq-title">
+          Is Adventure Peak a sleepaway camp?
+        </h3>
+        <p class="faq-text">
+          Yes, Adventure Peak is a sleepaway camp. We ask that you please keep your child 
+          at camp for the entire duration of the program that they were signed up for. 
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+           
+      <!--- Camp Duration -->
+      <div class="faq">
+        <h3 class="faq-title">
+          How long will my child be away at camp?
+        </h3>
+        <p class="faq-text">
+          Depending on which program your child is signed up for, your child will be at camp for either 6 weeks, 8 weeks, or 12 weeks.
+          We have a full, fleshed-out curriculum for every part of the day, hence why we strongly ask that your child remain enrolled in
+          camp for the entire time.
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      
+      <!--- Early Dismissal -->
+      <div class="faq">
+        <h3 class="faq-title">
+          What if my child needs to leave camp before the end of program?
+        </h3>
+        <p class="faq-text">
+          Because of our heavy enrollment numbers, we ask that you only submit an enrollment form if you know your child will be
+          available for the entire program, or consider enrolling in our shorter programs.. We generally do not accommodate requests 
+          for early dismissal from camp. In the event of an emergency, please contact our office at (xxx)xxx-xxxx        
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!--- Homesick -->
+      <div class="faq">
+        <h3 class="faq-title">
+          What if my child gets homesick?
+        </h3>
+        <p class="faq-text">
+          Surprisingly enough, we've found that children generally do not feel overwhelmingly homesick. While the occasional homesickness
+          is fairly common, it is a completely normal and natural feeling. Our camp counselors are highly trained in child care and will 
+          connect with your child to ensure they feel at home. If you're worried about your child and want to stay in touch, we highly 
+          encourage sending letters to our very special Parent Inbox, located at our facility. We've found that staying in contact with 
+          your child has boosted morale and makes campers feel more at-ease knowing that their families are thinking about them!
+        </p>
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!--- Technology -->
+      <div class="faq">
+        <h3 class="faq-title">
+          What is your policy on technology?
+        </h3>
+
+        <p class="faq-text">
+          Cell phones, laptops, and any device capable of communication is strictly prohibited. We understand that campers may want to stay in
+          touch with family, and we have designated times throughout the week to write letters back home. We also do not permit cameras or other
+          devices capable of taking pictures or videos to protect your child, as well as others. We do allow MP3 players and headphones, so long
+          as they do not violate the policies above. Any devices that violate the technology agreement will be confiscated and will be returned on
+          the <b>last day of camp.</b>
+        </p>
+
+        <button class="faq-toggle">
+          <i class="fas fa-chevron-down"></i>
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+      <!--- What to Bring -->
+      <div class="faq">
+        <h3 class="faq-title">
+            What should my child bring?
+        </h3>
+
+        <p class="faq-text">
+            We ask that parents provide their child with enough clothing to last for a week. Camp shirts and sweaters are covered with your child's 
+            tuition, but we still ask that you bring a few articles of clothing so that your child has a choice in what to wear. We do not provide 
+            toothbrushes, so please make sure to have your child bring one. If your child has any special items, such as toys, journals, books, etc.,
+            we highly encourage bringing that so that your child can practice their hobbies during free time. 
+        </p>
+
+        <button class ="faq-toggle"> 
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+        </button>
+      </div>
+
+        <!--- Forgetting Items -->
+        <div class = "faq">
+          <h3 class="faq-title">
+              What if my child forgets something?
+          </h3>
+
+          <p class="faq-text">
+            Our camp shop will have anythign that your child may need should there be an accident, such as toothbrushes, toothpaste, soap, shampoo, conditioner,
+            as well as souvenirs. Since we have a good balance between boys and girls, if your child is a girl, she will NOT be expected to purchase feminine
+            products.
+          </p>
+
+          <button class ="faq-toggle">
+              <i class="fas fa-chevron-down"></i>
+              <i class="fas fa-times"></i>
+          </button>
+      </div>
+
+      <!--- Money-->
+      <div class = "faq">
+        <h3 class="faq-title">You mentioned that Adventure Peak has a camp shop. Should my child bring money?</h3>
+        <p class="faq-text">
+            Older campers are set up with a "Camper Account" so that they can make purchases as needed. You can reload their balance straight from home if you see that
+            your child is low on funds. We do this to avoid physical cash being lost or stolen on the premesis. We also do not take credit or debit cards.
+        </p>
+
+        <button class ="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <!--Tuition-->
+      <div class = "faq">
+        <h3 class="faq-title">
+           How much is tuition?
+        </h3>
+
+        <p class="faq-text">
+          Prices are as follows:
+          <table class = "faq-text">
+            <caption>Tution</caption>
+            <tr>
+              <th>Age</th>
+              <th>Pricing</th>
+            </tr>
+            <tr>
+              <td>5 - 9</td>
+              <td>$699</td>
+            </tr>
+            <tr>
+              <td>10 - 12</td>
+              <td>$750</td>
+            </tr>
+            <tr>
+              <td>13 - 17</td>
+              <td>$825</td>
+            </tr>
+          </table>
+        </p>
+
+        <button class ="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <!--- Other Questions -->
+      <div class = "faq">
+        <h3 class="faq-title">
+            What if I have a question that isn't listed here?
+        </h3>
+
+        <p class="faq-text">
+            If your child is currently at camp and you need an immediate response, please call our office at (123) 456-7890. Otherwise, please check out our <a href = "contact.html">
+              Contact Us</a> page and submit your question. Please note that it may take a few days for us to respond.
+        </p>
+
+        <button class ="faq-toggle">
+            <i class="fas fa-chevron-down"></i>
+            <i class="fas fa-times"></i>
+        </button>
+      </div>
     </div>
 
-
-
-    </body>
-
-
-
-
-
+    <!-- Footer -->
+    <footer>
+      <h2>Adventure Peak</h2>
+      <p>Sign Up Today!</p>
+      <p>
+          <a href = "https://www.facebook.com"><i class = "fa-brands fa-facebook"></i></a>
+          <a href = "https://www.instagram.com"><i class = "fa-brands fa-instagram"></i></a>
+      </p>
+      <h4>Website by: Katelyn Villacres and Tania Sacoto</h4>
+    </footer>
+    <script src="faq_script.js"></script>
+  </body>
 </html>

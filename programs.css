@@ -1,18 +1,6 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap');
 
-@font-face{
-  font-family: Whitney;
-  src: url(whitney-book.otf);
-}
-@font-face{
-  font-family: WhitneyBold;
-  src: url(whitney-semibold.otf);
-}
-@font-face{
-  font-family: WhitneyTitle;
-  src: url(whitney-boldsc.otf);
-}
 #logo {
   padding: 20px;
 }
@@ -22,7 +10,7 @@ body{
 }
 header{
   margin-top: 50px;
-  padding-top: 90px;
+  padding-top: 60px;
 }
 header > h1{
     font-family: 'Shantell Sans';
@@ -34,7 +22,7 @@ header > h1{
   font-size: 20px;
   position: fixed;
   z-index: 1;
-  background-color: #85bee9;
+  background-color: #00896f;
   top: 0;
   left: 0;
   right: 0;
@@ -139,6 +127,25 @@ img{
   margin: 0px 60px 0px 60px;
   font-size: 28px;
   color: white;
+}
+footer{
+  font-family: "Shantell Sans";
+  background-color: #00896f;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.fa-brands {
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #fff;
+  font-size: 3rem;
+  border: none;
 }
 @media (max-width: 800px){
   .boxContainer1{
