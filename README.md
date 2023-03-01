@@ -5,7 +5,7 @@
 - Katelyn Villacres
 
 ## Files
-- [White Paper](CS355_White Paper.pdf)
+- [White Paper](CS355_White_Paper.pdf)
 - [Gray Paper](CS355_Gray_Paper.pdf)
 - [Adventure Peak Wireframes](adventurePeakWireframes.pdf)
 - [Adventure Peak Screenshots](adventurePeakScreenshots.pdf)
