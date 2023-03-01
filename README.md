@@ -12,7 +12,7 @@
 - [Adventure Peak Recording](https://youtu.be/TJw66OBbS_w)
 - [Bear Mountain Wireframes](BearMountainWireframes.pdf)
 
-###Udemy Elements
+### Udemy Elements
 - Sticky Navbar
 - FAQ
 - Image Carousel
