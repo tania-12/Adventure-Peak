@@ -1,13 +1,13 @@
 # Adventure Peak
 
-##Members
--Tania Sacoto
--Katelyn Villacres
+## Members
+- Tania Sacoto
+- Katelyn Villacres
 
-##Files
--[Adventure Peak Wireframes (https://github.com/tania-12/Adventure-Peak/blob/main/adventurePeakWireframes.pdf)
--[Adventure Peak Screenshots] (https://github.com/tania-12/Adventure-Peak/blob/main/adventurePeakScreenshots.pdf)
--[Adventure Peak Recording] (https://github.com/tania-12/Adventure-Peak/blob/main/AdventurePeakRecording.mp4)
--[Bear Mountain Wireframes](https://github.com/tania-12/Adventure-Peak/blob/main/BearMountainWireframes.pdf)
+## Files
+- [Adventure Peak Wireframes](adventurePeakWireframes.pdf)
+- [Adventure Peak Screenshots](adventurePeakScreenshots.pdf)
+- [Adventure Peak Recording](https://youtu.be/TJw66OBbS_w)
+- [Bear Mountain Wireframes](BearMountainWireframes.pdf)
 -
 
